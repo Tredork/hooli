@@ -1,0 +1,292 @@
+.forme{
+	display: flex;
+	margin: auto;
+	margin-left: 10px;
+	margin-right: 25px;
+}
+
+
+/* mettre les div Accueilimg et Presentation aligés*/
+.page{
+	display: flex;
+}
+
+.headpresentation{
+	display: flex;
+
+
+}
+
+
+/*disposition des div*/
+.page .Accueilimg,
+.page .Presentation{
+	display: table-cell;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.Accueilimg{
+	width: 30%;
+	border-image: 10px;
+	padding-bottom: 3px;
+}
+
+.Presentation{
+	 width: 70%;
+
+}
+
+
+/* disposition du tableau */
+table{
+	margin: auto;
+}
+
+
+td{
+	text-align: center;
+ 	padding-left: 7px;
+ 	padding-right: 7px;
+ 	padding-bottom: 10px;
+	border-radius: 30px;
+
+}
+
+td.ConfortEconomie{
+	border-bottom: 5px solid #066;
+
+}
+
+td.Sécurité{
+	border-top: 5px solid #066;
+
+}
+
+pre{
+	font-size: 200%;
+	margin-right: 10px;
+	margin-left: 10px;
+	position: relative;
+}
+
+
+img{
+	border-radius: 175px;
+
+}
+
+p.Accueil{
+	border: 2px solid #066;
+	border-radius: 15px;
+	border-collapse: 3px;
+	padding: 10px;
+	margin-top: 50px;
+	font-size: 115%;
+	text-align: justify;
+}
+
+
+section{
+	border: 3px solid #066;
+	border-top-left-radius: 30px;
+	border-top-right-radius: 60px;
+	border-bottom-right-radius: 30px;
+	border-bottom-left-radius: 60px;
+	margin: 20px;
+	width: 25%;
+	height: 300px;
+	margin-left: 8em;
+}
+
+
+aside{
+	border-top-left-radius: 30px;
+	border-top-right-radius: 60px;
+	border-bottom-right-radius: 30px;
+	border-bottom-left-radius: 60px;
+	border: 3px solid #066;
+	width: 50%;
+	height: 300px;
+	margin-top: 20px;
+	margin-right: inherit;
+	padding-left: 7%;
+
+}
+
+#formsav{
+
+margin-right: inherit;
+
+}
+textarea{
+	width: 65%;
+	height: 100px;
+	margin-left: 70px;
+
+}
+
+h1{
+	text-align: center;
+	font-size: 280%;
+
+}
+
+hr{
+	border: 1px solid cyan;
+}
+
+select{
+	margin-left: 70px;
+}
+
+label{
+	margin-left: 70px;
+
+
+}
+
+h3{
+	margin-left: 25px;
+}
+
+p{
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+fieldset{
+	border: 3px solid #066;
+	border-top-left-radius: 30px;
+	border-top-right-radius: 60px;
+	border-bottom-right-radius: 30px;
+	border-bottom-left-radius: 60px;
+}
+
+/* code css capteur */
+.div1{
+		 width:1000px;
+         height:380px;
+         display: none;
+         float:right;
+         position: relative !important;
+         background: url(无标题.png );
+         border: solid 4px #066;
+				 border-top-left-radius: 30px;
+			 	border-top-right-radius: 60px;
+			 	border-bottom-right-radius: 30px;
+			 	border-bottom-left-radius: 60px;
+	     z-index: -2;
+	     top: 0;
+	    padding: 20px;
+	    margin-bottom:20px;
+		}
+
+
+.btn1{
+			position: relative !important; /* Keeps the tabs in line with each other */
+	text-decoration: none;
+	color: #000;
+	display: inline-block;
+	font-size: 15px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin: 1px;
+	background: #ddd; /* old browsers */
+	/*border:  2px #9b9b9b;*/
+	padding: 20px 55px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 0px;
+	border-radius: 3px;
+	-moz-box-shadow: 0 4px 10px -5px #000000;
+	box-shadow: 0 4px 10px -5px #000000;
+	-webkit-box-shadow: 0 4px 10px -5px #000000;
+	width: 200px;
+	height: 10px;
+	border-radius: 40px;
+		}
+
+.ajouter {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: steelblue;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.ajouter:hover {background-color: #3e8e41}
+
+.ajouter:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+
+
+
+.supprimer {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: steelblue;
+  background-color: white;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.supprimer:hover {background-color: #3e8e41}
+
+.supprimer:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+/* code css maison */
+
+*{
+margin:0;padding:0;
+ -webkit-box-sizing: border-box;
+ -moz-box-sizing: border-box;
+   box-sizing: border-box;
+}
+
+.container{
+margin:10px auto;
+width:1000px;
+overflow:hidden;
+background:beige;
+border-top: 3px solid #066;
+border-right: 3px solid #066;
+border-bottom: 3px solid #066;
+border-left: 3px solid #066;
+border-top-left-radius: 30px;
+border-top-right-radius: 60px;
+border-bottom-right-radius: 30px;
+border-bottom-left-radius: 60px;
+
+}
+
+li{
+
+height:35px;
+line-height:35px;
+list-style:none;
+text-align:center;
+width:150px;
+
+}

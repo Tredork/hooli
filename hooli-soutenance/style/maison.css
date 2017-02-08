@@ -1,0 +1,93 @@
+*{
+margin:0;padding:0;
+ -webkit-box-sizing: border-box;
+ -moz-box-sizing: border-box;
+   box-sizing: border-box;
+}
+
+.container{
+margin:10px auto;
+width:1000px;
+overflow:hidden;
+background:beige;
+border-top: 3px solid #066;
+border-right: 3px solid #066;
+border-bottom: 3px solid #066;
+border-left: 3px solid #066;
+border-top-left-radius: 30px;
+border-top-right-radius: 60px;
+border-bottom-right-radius: 30px;
+border-bottom-left-radius: 60px;
+
+}
+
+li{
+
+height:35px;
+line-height:35px;
+list-style:none;
+text-align:center;
+width:150px;
+
+}
+
+li:last-child{
+height:159px;
+border-right:1px solid #00A2CA;
+border-bottom:1px solid lightgrey;
+}
+
+li.active {
+border-right:1px solid white;
+background:white;
+}
+
+li.normal {
+border-right:1px solid white;
+background:red;
+}
+
+#tab_content{
+float:right;
+width:850px;
+*width:394px;
+background:white;
+height:400px;
+overflow:hidden;
+border-top:1px solid lightgrey;
+border-right:1px solid lightgrey;
+border-bottom:1px solid lightgrey;
+border-left:0px solid lightgrey;
+padding-bottom: 400px;
+}
+
+#tab_content .content{
+ padding: 15px;
+ -moz-border-radius: 5px;
+height:450px;
+
+}
+
+.content{
+	display: flex;
+}
+
+.content .iconeLumiere,
+.content .iconeTemperature,
+.content .iconeAire{
+	display: table-cell;
+	margin-left: 30px;
+	margin-right: 50px;
+	margin-top: 60px;
+}
+
+
+
+
+
+img{
+	border-radius: 175px;
+	margin-left: 20px;
+	align-items: center;
+
+}
